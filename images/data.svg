@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16.000004"
+   height="16.000002"
+   viewBox="0 0 16.000004 16.000002"
+   version="1.1"
+   id="svg1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Warstwa 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#21ff0d;fill-opacity:1;stroke:#23ff0f;stroke-width:2.09829;stroke-linecap:square;stroke-linejoin:miter;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect1"
+       width="13.901712"
+       height="13.901711"
+       x="1.0491438"
+       y="1.0491443" />
+    <g
+       id="g2"
+       transform="translate(0,0.74507856)">
+      <ellipse
+         style="fill:#ffffff;fill-opacity:1;stroke:#23ff0f;stroke-width:1.885;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         id="ellipse2"
+         cx="8"
+         cy="9.6172209"
+         rx="4.8318405"
+         ry="1.9627756" />
+      <ellipse
+         style="fill:#ffffff;fill-opacity:1;stroke:#23ff0f;stroke-width:1.885;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         id="ellipse1"
+         cx="8"
+         cy="7.3032484"
+         rx="4.8318405"
+         ry="1.9627756" />
+      <ellipse
+         style="fill:#ffffff;fill-opacity:1;stroke:#23ff0f;stroke-width:1.885;stroke-linecap:square;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+         id="path1"
+         cx="8"
+         cy="4.892622"
+         rx="4.8318405"
+         ry="1.9627756" />
+    </g>
+  </g>
+</svg>

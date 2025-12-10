@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg1"
+   xml:space="preserve"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px" /><defs
+     id="defs1" /><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"><rect
+       style="fill:#29e800;fill-opacity:1;stroke-width:1.42679"
+       id="rect1"
+       width="16"
+       height="16"
+       x="0"
+       y="0" /><g
+       style="fill:#ffffff"
+       id="g1"
+       transform="matrix(0.86084603,0,0,0.86081496,1.5432125,0.38973691)"><g
+         id="SVGRepo_bgCarrier"
+         stroke-width="0" /><g
+         id="SVGRepo_tracerCarrier"
+         stroke-linecap="round"
+         stroke-linejoin="round" /><g
+         id="SVGRepo_iconCarrier"><path
+           d="m 14.147,15.488 a 1.112,1.112 0 0 1 -1.567,0 L 9.185,12.093 a 5.575,5.575 0 1 1 1.568,-1.568 l 3.394,3.395 a 1.112,1.112 0 0 1 0,1.568 z M 7.786,11.585 a 4.488,4.488 0 1 0 -1.681,0.327 4.443,4.443 0 0 0 1.68,-0.327 z"
+           id="path1" /></g></g></g></svg>

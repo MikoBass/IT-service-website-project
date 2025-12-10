@@ -1,0 +1,266 @@
+-- phpMyAdmin SQL Dump
+-- version 5.2.1
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1
+-- Generation Time: May 21, 2024 at 09:06 PM
+-- Server version: 10.4.32-MariaDB
+-- PHP Version: 8.2.12
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `portfoliodatabase`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `country`
+--
+
+CREATE TABLE `country` (
+  `id` int(11) NOT NULL,
+  `name` varchar(40) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `country`
+--
+
+INSERT INTO `country` (`id`, `name`) VALUES
+(1, 'Poland'),
+(2, 'France'),
+(3, 'United_Kingdom'),
+(4, 'United_States_of_America'),
+(5, 'Germany'),
+(6, 'Spain');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `credentials`
+--
+
+CREATE TABLE `credentials` (
+  `id` int(11) NOT NULL,
+  `username` varchar(20) DEFAULT NULL,
+  `password` varchar(64) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `credentials`
+--
+
+INSERT INTO `credentials` (`id`, `username`, `password`) VALUES
+(1, 'John', 'mypassword'),
+(2, 'Jane', 'passwd'),
+(3, 'MikoBass', '5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8'),
+(4, 'Joe', 'ccb711f092ac8ef1805b5045fab7e8a6189cb97ad04565e21b5fbcfc9e542e42'),
+(5, 'Ronald', '8c434fcd506dbd81e723fb4e0a18b6ddf2ebe4ef9f4c5e472e9f4fdc347d4fec'),
+(6, 'kubek', '72ba608dbfac8d46d4aaf40f428badf85af1f929fece7480e56602b4452a71fe');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `experience`
+--
+
+CREATE TABLE `experience` (
+  `id` int(11) NOT NULL,
+  `name` varchar(20) DEFAULT NULL,
+  `lanOrExp` varchar(3) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `experience`
+--
+
+INSERT INTO `experience` (`id`, `name`, `lanOrExp`) VALUES
+(1, 'java_script', 'exp'),
+(2, 'java', 'exp'),
+(3, 'csharp', 'exp'),
+(4, 'html', 'exp'),
+(5, 'css', 'exp'),
+(6, 'c', 'exp'),
+(7, 'cpp', 'exp'),
+(8, 'mobile', 'exp'),
+(9, 'data', 'exp'),
+(10, 'testing', 'exp'),
+(11, 'admin', 'exp'),
+(12, 'analitics', 'exp'),
+(13, 'ux-ui', 'exp'),
+(14, 'gamedev', 'exp'),
+(15, 'security', 'exp'),
+(16, 'Polish', 'lan'),
+(17, 'English', 'lan'),
+(18, 'French', 'lan'),
+(19, 'German', 'lan'),
+(20, 'Spanish', 'lan');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `experienceconnector`
+--
+
+CREATE TABLE `experienceconnector` (
+  `userId` int(11) DEFAULT NULL,
+  `experienceId` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `experienceconnector`
+--
+
+INSERT INTO `experienceconnector` (`userId`, `experienceId`) VALUES
+(1, 2),
+(1, 14),
+(1, 17),
+(2, 7),
+(2, 18),
+(2, 17),
+(3, 5),
+(3, 1),
+(3, 4),
+(3, 17),
+(3, 16),
+(5, 1),
+(5, 8),
+(5, 11),
+(5, 14),
+(5, 12),
+(5, 15),
+(5, 9),
+(5, 5),
+(5, 7),
+(5, 17),
+(5, 18),
+(6, 2),
+(6, 5),
+(6, 16),
+(6, 17);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `users`
+--
+
+CREATE TABLE `users` (
+  `id` int(11) NOT NULL,
+  `firstName` varchar(30) DEFAULT NULL,
+  `lastName` varchar(30) DEFAULT NULL,
+  `country` int(11) DEFAULT NULL,
+  `city` varchar(20) DEFAULT NULL,
+  `github` varchar(255) DEFAULT NULL,
+  `about` varchar(255) DEFAULT NULL,
+  `available` binary(1) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`id`, `firstName`, `lastName`, `country`, `city`, `github`, `about`, `available`) VALUES
+(1, 'John', 'Doe', 4, 'Boston', 'github.com', 'Description of meself', 0x31),
+(2, 'Jane', 'Doe', 2, 'Paris', 'github.com', 'Description of myself', 0x30),
+(3, 'Mikołaj', 'Baran', 1, 'Moryń', 'github.com/MikoBass', 'test', 0x30),
+(4, 'Joe', 'Mama', 4, 'Burbank', 'github.com', 'Whos joe', 0x31),
+(5, 'Ronald', 'McDonald', 4, 'New York', 'github.com/McDonalds', 'obese', 0x31),
+(6, 'kubek', 'kubek', 1, 'kubek', 'kubek', 'kubek', 0x31);
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `country`
+--
+ALTER TABLE `country`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `credentials`
+--
+ALTER TABLE `credentials`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `username` (`username`);
+
+--
+-- Indexes for table `experience`
+--
+ALTER TABLE `experience`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `experienceconnector`
+--
+ALTER TABLE `experienceconnector`
+  ADD KEY `experiencedinconnector_ibfk_1` (`userId`),
+  ADD KEY `experiencedinconnector_ibfk_2` (`experienceId`);
+
+--
+-- Indexes for table `users`
+--
+ALTER TABLE `users`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `users_ibfk_1` (`country`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `country`
+--
+ALTER TABLE `country`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+
+--
+-- AUTO_INCREMENT for table `credentials`
+--
+ALTER TABLE `credentials`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+
+--
+-- AUTO_INCREMENT for table `experience`
+--
+ALTER TABLE `experience`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
+
+--
+-- AUTO_INCREMENT for table `users`
+--
+ALTER TABLE `users`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+
+--
+-- Constraints for dumped tables
+--
+
+--
+-- Constraints for table `experienceconnector`
+--
+ALTER TABLE `experienceconnector`
+  ADD CONSTRAINT `experiencedinconnector_ibfk_1` FOREIGN KEY (`userId`) REFERENCES `users` (`id`),
+  ADD CONSTRAINT `experiencedinconnector_ibfk_2` FOREIGN KEY (`experienceId`) REFERENCES `experience` (`id`);
+
+--
+-- Constraints for table `users`
+--
+ALTER TABLE `users`
+  ADD CONSTRAINT `users_ibfk_1` FOREIGN KEY (`country`) REFERENCES `country` (`id`);
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

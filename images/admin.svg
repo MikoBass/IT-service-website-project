@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="16"
+   height="16"
+   viewBox="0 0 16 16"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1">
+    <rect
+       style="fill:#00ffff;fill-opacity:1;stroke:none;stroke-width:0.623622"
+       id="rect1"
+       width="16"
+       height="16"
+       x="0"
+       y="0.027280478" />
+    <g
+       id="g9"
+       transform="rotate(17.5352,8.6779038,3.9364982)">
+      <circle
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.623622;stroke-opacity:1"
+         id="path3"
+         cx="11.184996"
+         cy="5.0332479"
+         r="2" />
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.524;stroke-dasharray:none;stroke-opacity:1"
+         d="m 10.339301,3.0008525 0.341006,-1.0230179 1.104859,0.01364 0.245525,1.0366582 z"
+         id="path4" />
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.524;stroke-dasharray:none;stroke-opacity:1"
+         d="m 12.524531,3.3089892 1.057982,-0.2086249 0.533709,0.9674992 -0.78022,0.7253963 z"
+         id="path5" />
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.524;stroke-dasharray:none;stroke-opacity:1"
+         d="M 13.275276,5.3170502 13.999373,6.1161328 13.445388,7.0721663 12.421622,6.777468 Z"
+         id="path6" />
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.524;stroke-dasharray:none;stroke-opacity:1"
+         d="M 12.016422,7.1108965 11.644604,8.1231225 10.540665,8.0760447 10.326633,7.032429 Z"
+         id="path7" />
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.524;stroke-dasharray:none;stroke-opacity:1"
+         d="M 9.9405031,6.8295412 8.9013313,7.1175904 8.2959726,6.193232 9.0190908,5.4108999 Z"
+         id="path8" />
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.524;stroke-dasharray:none;stroke-opacity:1"
+         d="M 8.9748337,4.7363018 8.2283919,3.9580505 8.7550733,2.9867088 9.786776,3.2522892 Z"
+         id="path9" />
+    </g>
+    <g
+       id="g15"
+       transform="rotate(-10.296955,36.026156,37.415039)">
+      <circle
+         style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:0.623622;stroke-opacity:1"
+         id="circle9"
+         cx="11.184996"
+         cy="5.0332479"
+         r="2" />
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.524;stroke-dasharray:none;stroke-opacity:1"
+         d="m 10.339301,3.0008525 0.341006,-1.0230179 1.104859,0.01364 0.245525,1.0366582 z"
+         id="path10" />
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.524;stroke-dasharray:none;stroke-opacity:1"
+         d="m 12.524531,3.3089892 1.057982,-0.2086249 0.533709,0.9674992 -0.78022,0.7253963 z"
+         id="path11" />
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.524;stroke-dasharray:none;stroke-opacity:1"
+         d="M 13.275276,5.3170502 13.999373,6.1161328 13.445388,7.0721663 12.421622,6.777468 Z"
+         id="path12" />
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.524;stroke-dasharray:none;stroke-opacity:1"
+         d="M 12.016422,7.1108965 11.644604,8.1231225 10.540665,8.0760447 10.326633,7.032429 Z"
+         id="path13" />
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.524;stroke-dasharray:none;stroke-opacity:1"
+         d="M 9.9405031,6.8295412 8.9013313,7.1175904 8.2959726,6.193232 9.0190908,5.4108999 Z"
+         id="path14" />
+      <path
+         style="fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.524;stroke-dasharray:none;stroke-opacity:1"
+         d="M 8.9748337,4.7363018 8.2283919,3.9580505 8.7550733,2.9867088 9.786776,3.2522892 Z"
+         id="path15" />
+    </g>
+  </g>
+</svg>
